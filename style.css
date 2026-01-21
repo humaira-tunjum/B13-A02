@@ -58,7 +58,7 @@ nav {
 /* banner style */
 
 .banner {
-  background-image: url('/img/hero-bg.png');
+  background-image: url('./img/hero-bg.png');
     background-size: contain;
   background-repeat: no-repeat;
   
