@@ -43,7 +43,7 @@ nav {
   font-weight: 500;
 }
 
-.btn {
+.nav-btn {
   background-color: lab(55.16% -47.53 28.57);
   color: white;
   border: none;
@@ -293,5 +293,54 @@ nav {
   gap: 20px;
   padding: 0;
 }
+
+/* small screens */
+
+@media (max-width: 576px) {
+
+  .about-card-container, .feature-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .choose-card-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+
+  .nav-links, .nav-btn {
+    display: none;
+  }
+  .banner-title {
+    font-size: 32px;
+
+  }
+  .banner-img {
+    max-height: 300px;
+   
+
+
+  }
+  .microphone {
+    width: 50px;
+    padding: 50px;
+  }
+  
+}
+/* large screens */
+@media (min-width: 992px) {
+  .banner-title {
+    font-size: 64px;
+
+  }
+}
+
+
+
+
+
+
+  
+
 
 
